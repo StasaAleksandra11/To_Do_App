@@ -13,7 +13,7 @@ import sideBar from '../assets/homeImg/sideBar.png'
 import text from '../assets/homeImg/text.png'
 import homeIcons from '../assets/homeImg/homeIcons.png'
 function HomePage() {
-  const [introActive, setIntroActive] = useState(false)
+  const [introActive, setIntroActive] = useState(true)
   return (
     <div className='bg-[#121212] '>
         {introActive ? <IntroComponent/> : null}

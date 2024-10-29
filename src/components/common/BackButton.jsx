@@ -1,5 +1,5 @@
 import React from 'react'
-import Back from '../../assets/intro/Back.png'
+
 import { useNavigate } from 'react-router'
 
 
@@ -13,8 +13,8 @@ import { useNavigate } from 'react-router'
      
 
   return (
-    
-      <img src={Back} onClick={handleBack} className='w-[55px] md:w-[65px] lg:w-[75px] h-full cursor-pointer ml-[50px] lg:ml-[100px] '/>
+    <h3 className='text-white text-2xl cursor-pointer ml-[50px]' onClick={handleBack}>BACK</h3>
+     
     
   )
     }

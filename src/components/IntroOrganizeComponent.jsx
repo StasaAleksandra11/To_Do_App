@@ -1,7 +1,5 @@
-import React from 'react'
+
 import imgOrg from '../assets/intro/imgOrg.png'
-import textOrg from '../assets/intro/textOrg.png'
-import pOrg from '../assets/intro/pOrg.png'
 import NAVOrg from '../assets/intro/NAVOrg.png'
 import Skip from '../assets/intro/Skip.png'
 import BackButton from './common/BackButton'
@@ -15,8 +13,10 @@ function IntroOrganizeComponent() {
           <div className='flex flex-col items-center justify-center'>
             <img src={imgOrg} className='w-[257px] md:w-[267px] lg:w-[277px] h-full mt-[60px]'/>
              <img src={NAVOrg} className='mt-[60px] mb-[50px]'/>
-             <img src={textOrg} className='w-[303px] md:w-[313px] lg:w-[323px] '/>
-             <img src={pOrg} className='W-[299px] mt-[50px]' />
+             <h2 className='text-white text-4xl mt-[20px]'>Organize your task</h2>
+            
+             <h3 className='text-white text-xl mt-[40px] w-1/2 text-center '>You can organize your ddaily task adding your tasks into separate categories</h3>
+             
           </div>
           <div className='flex justify-between  items-center mt-[30px] '>
                
