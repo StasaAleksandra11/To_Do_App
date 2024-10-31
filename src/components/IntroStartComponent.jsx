@@ -1,6 +1,4 @@
 
-import createac from '../assets/intro/createac.png'
-import loginbutt from '../assets/intro/loginbutt.png'
 import ArrowButton from './common/ArrowBack'
 function IntroStartComponent() {
   return (
@@ -14,8 +12,8 @@ function IntroStartComponent() {
          
         </div>
         <div className='flex flex-col items-center  lg:justify-between mt-[150px] space-y-6 '>
-          <img src={loginbutt} className='w-[327px] '/>
-          <img src={createac} className='w-[327px] '/>
+          <h3 className='text-white bg-[#8875FF] px-[140px] py-[11px] rounded-md'>LOGIN</h3>
+          <h3 className='text-white border-2 border-[#8875FF]  px-[93px] py-[11px] rounded-md'>CREATE ACCOUNT</h3>
         </div>
       </div>
     </div>

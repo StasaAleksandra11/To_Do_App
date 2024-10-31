@@ -13,7 +13,7 @@ import { useNavigate } from 'react-router'
      
 
   return (
-    <h3 className='text-white text-2xl cursor-pointer ml-[50px]' onClick={handleBack}>BACK</h3>
+    <h3 className='text-white text-2xl cursor-pointer ml-[50px] md:ml-[100px] lg:ml-[250px]' onClick={handleBack}>BACK</h3>
      
     
   )
